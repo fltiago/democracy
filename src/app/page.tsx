@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 // ---------------------------------------------------------------------------
@@ -196,6 +197,27 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-ink-50">
+
+      {/* Version switcher */}
+      <div className="border-b border-ink-200 bg-ink-100">
+        <div className="mx-auto flex max-w-3xl items-center justify-between gap-4 px-5 py-3 text-sm">
+          <div className="flex items-center gap-3">
+            <span className="font-medium text-ink-500">Versão:</span>
+            <span className="rounded-full bg-ink-900 px-3 py-1 font-semibold text-white">
+              Resumida
+            </span>
+            <Link
+              href="/artigo"
+              className="rounded-full px-3 py-1 text-ink-500 transition hover:bg-ink-200"
+            >
+              Artigo completo
+            </Link>
+          </div>
+          <span className="hidden text-xs text-ink-400 sm:block">
+            Linguagem acessível, sem jargão técnico
+          </span>
+        </div>
+      </div>
 
       {/* NAV */}
       <nav className="sticky top-0 z-50 border-b border-ink-200 bg-white/90 backdrop-blur">
