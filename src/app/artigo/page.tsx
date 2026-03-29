@@ -71,10 +71,47 @@ export default function Artigo() {
       <article className="mx-auto max-w-2xl px-5 py-14">
 
         {/* Header */}
-        <header className="mb-12 text-center">
+        <header className="mb-12 text-center space-y-4">
           <h1 className="text-balance text-3xl font-bold leading-tight text-ink-900 sm:text-4xl">
             Fraude e Eleições: o que esperar de 2026?
           </h1>
+          <p className="text-sm text-ink-500">
+            por{" "}
+            <a
+              href="https://scholar.google.com/citations?user=Ux9W94sAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-ink-700 underline decoration-dotted hover:text-brand-600"
+            >
+              Dalson Figueiredo
+            </a>
+          </p>
+          <div className="flex justify-center gap-3 pt-1">
+            <a
+              href="https://youtube.com/@Datafobia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-ink-200 px-3 py-1 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:text-brand-600"
+            >
+              ▶ YouTube — @Datafobia
+            </a>
+            <a
+              href="https://linkedin.com/in/dalson-figueiredo-bb7a88308/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-ink-200 px-3 py-1 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:text-brand-600"
+            >
+              in LinkedIn
+            </a>
+            <a
+              href="https://scholar.google.com/citations?user=Ux9W94sAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-ink-200 px-3 py-1 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:text-brand-600"
+            >
+              🎓 Google Scholar
+            </a>
+          </div>
         </header>
 
         {/* Body */}

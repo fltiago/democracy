@@ -475,19 +475,44 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-ink-900">
             Pesquisadores dedicados à integridade eleitoral
           </h2>
-          <p className="leading-relaxed text-ink-700">
-            O grupo é formado por cientistas políticos e estatísticos com experiência em
-            análise de dados eleitorais, métodos quantitativos e ciência forense aplicada
-            a eleições. Todos os métodos usados são replicáveis — o código e os dados
-            estão disponíveis para qualquer pessoa verificar os resultados.
-          </p>
-          <div className="rounded-xl border border-ink-200 bg-white p-5">
-            <p className="text-sm leading-relaxed text-ink-600">
-              <strong>Missão:</strong> Produzir evidências científicas sobre a integridade
-              do processo eleitoral brasileiro, de forma transparente e acessível, antes e
-              depois de cada eleição. Acreditamos que democracias saudáveis dependem de
-              fatos verificáveis — não de crenças.
-            </p>
+          <div className="rounded-2xl border border-ink-200 bg-white p-6 shadow-sm">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-100 text-2xl font-bold text-brand-600">
+                D
+              </div>
+              <div className="flex-1 space-y-2">
+                <div>
+                  <p className="text-base font-bold text-ink-900">Dalson Figueiredo</p>
+                  <p className="text-sm text-ink-500">Cientista Político · Análise Quantitativa · Electoral Forensics</p>
+                </div>
+                <div className="flex flex-wrap gap-3 pt-1">
+                  <a
+                    href="https://youtube.com/@Datafobia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-ink-200 px-3 py-1 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:text-brand-600"
+                  >
+                    ▶ YouTube — @Datafobia
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/dalson-figueiredo-bb7a88308/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-ink-200 px-3 py-1 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:text-brand-600"
+                  >
+                    in LinkedIn
+                  </a>
+                  <a
+                    href="https://scholar.google.com/citations?user=Ux9W94sAAAAJ&hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-full border border-ink-200 px-3 py-1 text-xs font-medium text-ink-600 transition hover:border-brand-400 hover:text-brand-600"
+                  >
+                    🎓 Google Scholar
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
